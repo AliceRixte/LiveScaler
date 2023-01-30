@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1403.0, 923.0 ],
+		"rect" : [ 34.0, 85.0, 1406.0, 905.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -239,7 +239,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 481.5, 138.0, 30.0, 30.0 ]
 				}
 
@@ -252,7 +252,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 580.0, 82.0, 30.0, 30.0 ]
 				}
 
@@ -325,7 +325,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 189.5, 521.0, 50.0, 22.0 ],
-					"text" : "3"
+					"text" : "5"
 				}
 
 			}
@@ -345,29 +345,26 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgfillcolor_color1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_color1" : [ 0.376470588235294, 0.384313725490196, 0.4, 1.0 ],
+					"bgfillcolor_color2" : [ 0.290196078431373, 0.309803921568627, 0.301960784313725, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Arial Bold",
-					"fontsize" : 12.65,
 					"id" : "obj-134",
-					"items" : [ "0-identity.txt", ",", "1-swap.txt", ",", "2-toMin.txt", ",", "3-toMaj - Copy.txt", ",", "3-toMaj.txt" ],
+					"items" : [ "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 220.5, 483.0, 100.0, 23.0 ],
+					"patching_rect" : [ 220.5, 483.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 98.0, 23.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 94.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "0-identity.txt", "1-swap.txt", "2-toMin.txt", "3-toMaj - Copy.txt", "3-toMaj.txt" ],
-							"parameter_longname" : "umenu[2]",
-							"parameter_mmax" : 4,
+							"parameter_enum" : [ "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin" ],
+							"parameter_longname" : "umenu[14]",
+							"parameter_mmax" : 5,
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
 						}
