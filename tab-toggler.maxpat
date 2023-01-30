@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 101.0, 85.0, 1403.0, 905.0 ],
+		"rect" : [ 34.0, 77.0, 1197.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -162,6 +162,8 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"activebgoncolor" : [ 1.0, 0.796078431372549, 0.796078431372549, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
+					"focusbordercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-44",
@@ -182,6 +184,14 @@
 						}
 ,
 						"activebgoncolor" : 						{
+							"expression" : ""
+						}
+,
+						"bordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"focusbordercolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -408,7 +418,9 @@
 				}
 
 			}
- ]
+ ],
+		"default_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+		"accentcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
 	}
 
 }
