@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 11,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1403.0, 923.0 ],
+		"rect" : [ 34.0, 115.0, 748.0, 923.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -239,7 +239,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 481.5, 138.0, 30.0, 30.0 ]
 				}
 
@@ -252,7 +252,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 580.0, 82.0, 30.0, 30.0 ]
 				}
 
@@ -354,7 +354,7 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.65,
 					"id" : "obj-134",
-					"items" : [ "0-identity.txt", ",", "1-swap.txt", ",", "2-toMin.txt", ",", "3-toMaj - Copy.txt", ",", "3-toMaj.txt" ],
+					"items" : [ "0-identity.txt", ",", "1-constant.txt", ",", "2-swapFifth.txt", ",", "3-quantMaj.txt", ",", "4-quantHarmMin.txt", ",", "5-quantNatMin.txt" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -365,9 +365,9 @@
 					"presentation_rect" : [ 0.0, 0.0, 98.0, 23.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "0-identity.txt", "1-swap.txt", "2-toMin.txt", "3-toMaj - Copy.txt", "3-toMaj.txt" ],
-							"parameter_longname" : "umenu[2]",
-							"parameter_mmax" : 4,
+							"parameter_enum" : [ "0-identity.txt", "1-constant.txt", "2-swapFifth.txt", "3-quantMaj.txt", "4-quantHarmMin.txt", "5-quantNatMin.txt" ],
+							"parameter_longname" : "umenu[14]",
+							"parameter_mmax" : 5,
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
 						}
