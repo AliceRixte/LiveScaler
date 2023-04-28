@@ -17,7 +17,7 @@ To check if it works properly, send a transformation from the Conductor, the Ins
 
 ## Operator's manual
 
-An operator's manual can be found on Github : [Operator's Manual](github.com/autonym8/LiveScaler/wiki/LiveScaler-Manual)
+An operator's manual can be found on LiveScaler's wiki on  Github : [Operator's Manual](https://github.com/autonym8/LiveScaler/wiki/LiveScaler-Manual)
 
 ## Architecture of LiveScaler
 
