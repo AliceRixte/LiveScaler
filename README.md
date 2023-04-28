@@ -28,4 +28,4 @@ LiveScaler will be presented at Journée d'Informatique Musicales 2023 in Paris.
 * LiveScaler-Conductor has an unique instance on a separate MIDI track.
 * There's a LiveScaler-Instrument for each MIDI track which must be impacted by LiveScaler's transformations. 
 
-![Architecture of LiveScaler](./doc/img/architecture-LS-en.svg)
+![Architecture of LiveScaler](./doc/images/architecture-LS-en.svg)
