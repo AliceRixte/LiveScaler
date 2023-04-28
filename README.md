@@ -15,3 +15,5 @@ To set up a LiveScaler session in Ableton Live :
 
 To check if it works properly, send a transformation from the Conductor, the Instrument instance should flash to show they received it and should apply the MIDI transform at the same time.
 
+![architecture](./doc/img/architecture-LS-en.pdf)
+
