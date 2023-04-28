@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1197.0, 921.0 ],
+		"rect" : [ 34.0, 115.0, 1197.0, 921.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -179,32 +179,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ -0.972222149372101, -1.222222149372101, 266.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
-						"activebgoncolor" : 						{
-							"expression" : ""
-						}
-,
-						"bordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"focusbordercolor" : 						{
-							"expression" : ""
-						}
-,
-						"inactivetextoncolor" : 						{
-							"expression" : ""
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
-							"parameter_enum" : [ "Transp", "Anchor", "Mult", "Custom" ],
+							"parameter_enum" : [ "Transp", "Mult", "Anchor", "Custom" ],
 							"parameter_initial" : [ 0.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.tab",
@@ -418,9 +394,7 @@
 				}
 
 			}
- ],
-		"default_bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-		"accentcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
+ ]
 	}
 
 }
