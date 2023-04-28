@@ -17,3 +17,5 @@ To check if it works properly, send a transformation from the Conductor, the Ins
 
 ![architecture](./doc/img/architecture-LS-en.png)
 
+![Alt text](./doc/img/architecture-LS-en.svg)
+<img src="./doc/img/architecture-LS-en.svg">
