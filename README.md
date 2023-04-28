@@ -19,6 +19,10 @@ To check if it works properly, send a transformation from the Conductor, the Ins
 
 An operator's manual can be found on LiveScaler's wiki on  Github : [Operator's Manual](https://github.com/autonym8/LiveScaler/wiki/LiveScaler-Manual)
 
+## Research article
+
+LiveScaler will be presented at Journée d'Informatique Musicales 2023 in Paris.
+
 ## Architecture of LiveScaler
 
 * LiveScaler-Conductor has an unique instance on a separate MIDI track.
