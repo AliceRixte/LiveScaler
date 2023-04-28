@@ -3,8 +3,8 @@
 LiveScaler allows to change in live the scale of all the MIDI tracks of a session at the same time. 
 
 For now, LiveScaler only works within Ableton Live. It is composed of two Max For Live devices : 
-* LiveScaler-Conductor : receives MIDI from a controller to generate scale transformations that are sent to all the LiveScaler-Instrument
-* LiveScaler-Instrument : applies the scale transformations received from LiveScaler-Conductor to the MIDI it receives
+* **LiveScaler-Conductor** : receives MIDI from a controller to generate scale transformations that are sent to all the LiveScaler-Instrument
+* **LiveScaler-Instrument** : applies the scale transformations received from LiveScaler-Conductor to the MIDI it receives
 
 ## Quick set-up
 
@@ -15,7 +15,9 @@ To set up a LiveScaler session in Ableton Live :
 
 To check if it works properly, send a transformation from the Conductor, the Instrument instance should flash to show they received it and should apply the MIDI transform at the same time.
 
-![architecture](./doc/img/architecture-LS-en.png)
+## Architecture of LiveScaler
 
-![Alt text](./doc/img/architecture-LS-en.svg)
-<img src="./doc/img/architecture-LS-en.svg">
+* LiveScaler-Conductor has an unique instance on a separate MIDI track.
+* There's a LiveScaler-Instrument for each MIDI track which must be impacted by LiveScaler's transformations. 
+
+![Architecture of LiveScaler](./doc/img/architecture-LS-en.svg)
