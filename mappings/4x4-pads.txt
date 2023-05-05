@@ -1,0 +1,16 @@
+60, flexible 0;
+61, flexible 1;
+62, flexible 2;
+63, flexible 3;
+64, flexible 4;
+65, flexible 5;
+66, flexible 6;
+67, flexible 7;
+68, flexible 8;
+69, flexible 9;
+70, flexible 10;
+71, flexible 11;
+72, modifier transp;
+73, modifier anchor;
+74, modifier mult;
+75, modifier custom;
