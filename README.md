@@ -13,7 +13,7 @@ To set up a LiveScaler session in Ableton Live :
 * Create a MIDI track dedicated to a unique instance of LiveScaler-Conductor. This the track you need to send MIDI to in order to control LiveScaler with a controler.
 * For each MIDI track you wish to apply the scale transformation, add a LiveScaler-Instrument instance. It will automatically receive transformation from the Conductor.
 
-To check if it works properly, send a transformation from the Conductor, the Instrument instance should flash to show they received it and should apply the MIDI transform at the same time.
+To check if it works properly, send a transformation from the Conductor (e.g. by playing with the **Transp** parameter), the Instrument instance should flash to show they received it and should apply the MIDI transform at the same time (e.g. transpose all the tracks with a LiveScaler-Instrument instance on it).
 
 ## Operator's manual
 
