@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1409.0, 921.0 ],
+		"rect" : [ 34.0, 85.0, 1409.0, 905.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -306,7 +306,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-54",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -482,27 +481,29 @@
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-134",
-					"items" : [ "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random", ",", "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random" ],
+					"items" : [ "identity", ",", "constant", ",", "swapFifth", ",", "quantMaj", ",", "quantHarmMin", ",", "quantNatMin", ",", "dorian", ",", "phrygian", ",", "lydian", ",", "mixolydian", ",", "locrian", ",", "random" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
 					"patching_rect" : [ 220.5, 483.0, 100.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 94.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_enum" : [ "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random", "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random" ],
+							"parameter_enum" : [ "identity", "constant", "swapFifth", "quantMaj", "quantHarmMin", "quantNatMin", "dorian", "phrygian", "lydian", "mixolydian", "locrian", "random" ],
+							"parameter_invisible" : 1,
 							"parameter_longname" : "umenu[44]",
-							"parameter_mmax" : 167,
+							"parameter_mmax" : 11,
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"textcolor" : [ 1.0, 0.796, 0.796, 1.0 ],
+					"textcolor" : [ 0.537, 0.537, 0.537, 1.0 ],
 					"varname" : "umenu"
 				}
 
