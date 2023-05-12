@@ -10,10 +10,12 @@
 57, "trig flexible 9";
 58, "trig flexible 10";
 59, "trig flexible 11";
-80, "now target transp";
-81, "now target anchor";
-82, "now target mult";
-83, "now target custom";
+61, "trig transp 5, mult 2" "lock target transp";
+67, "hold mult -1, transp -4";
+80, "lock target transp";
+81, "lock target anchor";
+82, "lock target mult";
+83, "lock target custom";
 84, "trig flexible 0";
 85, "trig flexible 1";
 86, "trig flexible 2";
@@ -26,8 +28,8 @@
 93, "trig flexible 9";
 94, "trig flexible 10";
 95, "trig flexible 11";
-96, "hold transp";
-97, "hold anchor";
-98, "hold mult";
-99, "hold custom";
+96, "hold target transp";
+97, "hold target anchor";
+98, "hold target mult";
+99, "hold target custom";
 
