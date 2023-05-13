@@ -12,6 +12,7 @@
 59, "trig flexible 11";
 61, "trig transp 5, mult 2" "lock target transp";
 67, "hold mult -1, transp -4";
+71, "hold mult -1, transp -4";
 80, "lock target transp";
 81, "lock target anchor";
 82, "lock target mult";
