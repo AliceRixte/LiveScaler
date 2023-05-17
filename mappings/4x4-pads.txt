@@ -21,10 +21,12 @@
 69, "do mult 1, transp 7" ;
 70, "do mult -1, transp -1" ;
 71, "hold mult 2";
-72, "hold modulate";
+72, "hold modulate 1";
 73, "do mult 1, transp 2" ;
 74, "do mult -1, transp 6" ;
 75, "hold mult 3";
+76, "do modulate 1";
+77, "do modulate 0";
 80, "do target transp";
 81, "do target anchor";
 82, "do target mult";
