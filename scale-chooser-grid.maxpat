@@ -126,6 +126,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-74",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -140,13 +141,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-70",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 449.749999999999545, 205.0, 44.0, 20.0 ],
+					"patching_rect" : [ 449.749999999999545, 205.0, 46.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.5, -1.0, 24.625, 20.0 ],
+					"presentation_rect" : [ 238.5, -1.0, 26.0, 20.0 ],
 					"text" : "A#",
 					"textcolor" : [ 0.701960784313725, 0.494117647058824, 0.494117647058824, 1.0 ]
 				}
@@ -154,6 +156,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-69",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -168,6 +171,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-68",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -182,6 +186,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-63",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -196,6 +201,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-62",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -210,6 +216,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-61",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -224,6 +231,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-60",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -238,6 +246,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-59",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -252,6 +261,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-55",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -266,11 +276,12 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-53",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 377.499999999999545, 408.0, 28.5, 20.0 ],
+					"patching_rect" : [ 377.499999999999545, 408.0, 29.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 139.5, 82.0, 24.0, 20.0 ],
 					"text" : "C#",
@@ -280,13 +291,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Arial Bold",
 					"id" : "obj-44",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 236.249999999999545, 403.0, 19.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.5, 83.0, 18.0, 20.0 ],
+					"presentation_rect" : [ 42.5, 82.0, 18.0, 20.0 ],
 					"text" : "C",
 					"textcolor" : [ 0.701960784313725, 0.494117647058824, 0.494117647058824, 1.0 ]
 				}
