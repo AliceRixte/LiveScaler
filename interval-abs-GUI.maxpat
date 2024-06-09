@@ -70,7 +70,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 341.5, 15.999999648437552, 30.0, 30.0 ]
 				}
 
@@ -130,7 +130,6 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"focusbordercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"fontsize" : 15.0,
-					"hidden" : 1,
 					"id" : "obj-34",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -168,7 +167,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 72 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[13]",
+							"parameter_longname" : "live.numbox[4]",
 							"parameter_shortname" : "live.numbox[3]",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 8
@@ -189,7 +188,6 @@
 					"bordercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"focusbordercolor" : [ 0.0, 0.0, 0.0, 0.5 ],
 					"fontsize" : 15.0,
-					"hidden" : 1,
 					"id" : "obj-30",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
@@ -227,7 +225,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 48 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[12]",
+							"parameter_longname" : "live.numbox[3]",
 							"parameter_shortname" : "live.numbox[3]",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 8
@@ -249,7 +247,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 253.750020333333282, 20.999999648437552, 30.0, 30.0 ]
 				}
 
