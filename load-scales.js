@@ -28,7 +28,7 @@ function init(val)
         if(a>max_scales) a = max_scales; // too many scales, set to 12
 
         // out with the old...
-        if(num_scales) this.patcher.remove(gate); 
+        if(num_scales) this.patcher.remove(gate);
         for(var i=0;i<num_scales;i++)
         {
             this.patcher.remove(colls[i]);
@@ -46,7 +46,7 @@ function init(val)
         }
 
 
-        
+
         for(var k=0;k<a;k++) // create the new coll objects, connect them to the gate
         {
             colls[k] = this.patcher.newdefault(300+(k*100), 250, "coll");
@@ -66,7 +66,21 @@ function init(val)
     }
 }
 
-// bang 
+// remove all gates and colls
+function clear()
+{
+    this.patcher.applyif(
+        function(obj) {
+            this.patcher.remove(obj)
+        },
+        function(obj) {
+            return obj.maxclass == "coll" || obj.maxclass == "gate";
+        }
+    )
+}
+
+
+// bang
 function bang()
 {
 
