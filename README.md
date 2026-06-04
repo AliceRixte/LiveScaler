@@ -2,7 +2,7 @@
 
 LiveScaler allows to change in live the scale of all the MIDI tracks of a session at the same time. 
 
-For now, LiveScaler only works within Ableton Live. It is composed of two Max For Live devices : 
+LiveScaler works within Ableton Live. It is composed of two Max For Live devices : 
 * **LiveScaler-Conductor** : receives MIDI from a controller to generate scale transformations that are sent to all the LiveScaler-Instrument
 * **LiveScaler-Instrument** : applies the scale transformations received from LiveScaler-Conductor to the MIDI it receives
 
@@ -15,13 +15,13 @@ To set up a LiveScaler session in Ableton Live :
 
 To check if it works properly, send a transformation from the Conductor (e.g. by playing with the **Transp** parameter), the Instrument instance should flash to show they received it and should apply the MIDI transform at the same time (e.g. transpose all the tracks with a LiveScaler-Instrument instance on it).
 
-## Operator's manual
+## Learn about LiveScaler
 
-An operator's manual can be found on LiveScaler's wiki on  Github : [Operator's Manual](https://github.com/autonym8/LiveScaler/wiki/Home)
-
-## Research article
-
-LiveScaler will be presented at Journée d'Informatique Musicales 2023 in Paris.
+* [Video tutorials](https://www.youtube.com/playlist?list=PLeC9--5OZZeCat9jd31Gyd3DyAMXrDh6K) 
+* [Video demo](https://www.youtube.com/watch?v=Cn0HBgWS5Pw&list=PLeC9--5OZZeCat9jd31Gyd3DyAMXrDh6K&index=2)
+* [Operator's Manual](https://github.com/autonym8/LiveScaler/wiki/Home) (hosted LiveScaler's wiki on Github). 
+* [Research article](https://hal.science/hal-04386347/document) To cite this work, please use the following
+  * Rixte, Alice. "LiveScaler: Contrôler en live l'harmonie d'un morceau de musique électronique." Journées d'Informatique Musicale (JIM). 2023.
 
 ## Architecture of LiveScaler
 
